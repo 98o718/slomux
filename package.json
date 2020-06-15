@@ -18,6 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "yarn build && cp build/index.html build/200.html && surge build https://slomux-practice.surge.sh",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
